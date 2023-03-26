@@ -1,0 +1,1 @@
+input -> (bottleneck layer -> depthwise separable conv layer) x n -> bottleneck layer -> (depthwise separable conv layer -> bottleneck layer) x n -> bottleneck layer -> depthwise separable conv layer -> GlobalAveragePooling2D -> Dense -> output
